@@ -3,7 +3,7 @@ public class Main {
 
         System.out.println("Задача 1");
 
-        for (int i = 1; i < 10; i++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println(i);
         }
         System.out.println("Задача 2");
@@ -20,7 +20,7 @@ public class Main {
         }
         System.out.println("Задача 5");
         for (int i = 1904; i<= 2096; i= i+4){
-            System.out.println(i + " год чвляется високосным");
+            System.out.println(i + " год является високосным");
         }
         System.out.println("Задача 6");
         for (int i = 7; i<=98; i= i+7){
@@ -42,8 +42,8 @@ public class Main {
         int total2 = 0;
         int salary2 = 29000;
         for (int i=1; i<=12; i++){
-            total2 = total2 +total2/100;
             total2= total2 + salary2;
+            total2 = total2 +total2/100;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total2 + " рублей");
         }
         System.out.println("Задача 10");
